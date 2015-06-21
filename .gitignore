@@ -1,0 +1,9 @@
+_CONFIG.php
+people/*.jpg
+uploads/*
+*.un~
+*.vim
+*.swp
+*.vim!
+*.swo
+
