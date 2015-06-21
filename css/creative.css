@@ -28,7 +28,7 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: #2955b3
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -36,7 +36,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: rgb(195, 217, 255);
 }
 
 h1,
