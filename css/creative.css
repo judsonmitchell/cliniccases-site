@@ -46,6 +46,10 @@ a:focus {
     color: rgb(195, 217, 255);
 }
 
+a.noline {
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -328,6 +332,7 @@ header .header-content .header-content-inner p {
 
 .footer{
     background-color:black;
+    padding-top:10px;
 }
 
 @media(min-width:768px) {
@@ -491,6 +496,12 @@ ul.lg-list li{
     font-size:1.5em;
 }
 
+.login-form{
+    font-size:1.3em;
+}
+
+.spacer{
+    padding:50px 0px;
 }
 ::-moz-selection {
     text-shadow: none;

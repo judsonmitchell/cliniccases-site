@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Help ClinicCases - Free and Open Source Case Management for Law School Clinics</title>
+    <title>Login - ClinicCases - Free and Open Source Case Management for Law School Clinics</title>
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -54,22 +54,22 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="../index.html#about">Learn More</a>
+                        <a class="page-scroll" href="index.html#learn-more">Learn More</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../demo">Demo</a>
+                        <a class="page-scroll" href="./demo">Demo</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../index.html#hosting">Hosting</a>
+                        <a class="page-scroll" href="index.html#hosting">Hosting</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../index.html#download">Download</a>
+                        <a class="page-scroll" href="index.html#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/help">Help</a>
                     </li>
                     <li class="active">
-                        <a href="#">Help</a>
-                    </li>
-                    <li>
-                        <a href="login.php">Login</a>
+                        <a class="page-scroll" href="#">Login</a>
                     </li>
                 </ul>
             </div>
@@ -77,44 +77,39 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <section class="spacer">
-        <!-- blank section for spacing -->
-    </section>
-    <section class="bg-primary" id="help">
-        <div class="container">
+
+
+    <section>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h1 class="section-heading">Getting Help with ClinicCases</h1>
+                    <h1 class="section-heading">Login to ClinicCases</h1>
                     <hr class="light">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4  text-center">
-                    <a href="../documentation"><i class="fa fa-4x fa-book wow bounceIn text-white"></i></a>
-                    <h2 class="section-heading"><a href="../documentation" style="text-decoration:none">Read the Documentation</a></h2>
-                    <p>The documentation provides detailed instructions on how to use 
-                    ClinicCases.  Browse through and find the specific information you need!</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <a href="../forums"><i class="fa fa-4x fa-users wow bounceIn text-white"></i></a>
-                    <h2 class="section-heading"><a href="../forums" style="text-decoration:none">Ask Questions in the Forum</a></h2>
-                    <p>Look through the forum to ask a question or to see if your question
-                    has already been answered. The program developer is usually online to answer
-                    your questions.</p> 
-                </div>
-                <div class="col-lg-4 text-center">
-                    <a href="faq.html"><i class="fa fa-4x fa-question wow bounceIn text-white"></i></a>
-                    <h2 class="section-heading"><a href="faq.html" style="text-decoration:none">Read the FAQ</a></h2>
-                    <p>The FAQ is a good place to look if you're thinking about using ClinicCases for 
-                    your office.  Learn more about the program, system requirements, and the story behind the software!</p> 
+                <div class="col-lg-6 col-lg-offset-3 text-center">
+                    <h3> If your organization has registered its copy of ClinicCases,<br /> you can find your login page here.</h3>
+                    <p>Please ask your administrator to <a class="dark" href="registration/index.php">register</a> if your organization is not listed.</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-
-    <section class="spacer">
-        <!-- blank section for spacing -->
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 text-center">
+                <form class="login-form">
+                    <div class="form-group">
+                        <label for="org">Find Your Login Page:</label>
+                        <select name="org" id="org">
+                            <option>--Please Select--</option>
+                        </select>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                        <input name="remember" id="remember" type="checkbox"> Remember my choice next time so I don't have to do this again.
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                </div>
+            </div>
     </section>
     <footer class="footer">
         <div class="container">
@@ -161,21 +156,42 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
+    <script src="js/jquery.cookie.js"></script>
     <script src="js/wow.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-570333-7', 'auto');
+    ga('send', 'pageview');
 
-  ga('create', 'UA-570333-7', 'auto');
-  ga('send', 'pageview');
+    </script>
+    <script>
+	if ($.cookie('ClinicCases_url')) {
+		window.location.replace($.cookie('ClinicCases_url'));
+	}
 
-</script>
+    $(document).ready(function() {
+        $.get('https://cliniccases.com/registered_users.php', function (d){
+            $('select').append(d);
+        });
+
+		//Submit form
+		$('button').click(function(event){
+			event.preventDefault();
+			var url = $('select').val();
+			if ($('input[name="remember"]').is(':checked')) {
+				$.cookie('ClinicCases_url', url,{expires:365});
+			}
+			window.location.replace(url);
+		})
+    });
+    </script>
 </body>
 
 </html>
