@@ -22,6 +22,7 @@
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="css/ekko-lightbox.css" type="text/css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
@@ -159,7 +160,7 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/portfolio/1-case.png" data-toggle="lightbox" data-title="Case Data" class="portfolio-box">
                         <img src="img/portfolio/1-case.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -175,7 +176,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/portfolio/2-documents.png" data-toggle="lightbox" data-title="Manage Files" class="portfolio-box">
                         <img src="img/portfolio/2-documents.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -191,7 +192,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/portfolio/3-calendar.png"  data-toggle="lightbox" data-title="Calendaring" class="portfolio-box">
                         <img src="img/portfolio/3-calendar.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -207,7 +208,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/portfolio/4-journals.png" data-toggle="lightbox" data-title="Journals" class="portfolio-box">
                         <img src="img/portfolio/4-journals.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -222,7 +223,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/portfolio/5-reports.png" data-toggle="lightbox" data-title="Reports" class="portfolio-box">
                         <img src="img/portfolio/5-reports.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -237,7 +238,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
+                    <a href="img/portfolio/6-mobile.png" data-toggle="lightbox" data-title="Mobile" class="portfolio-box">
                         <img src="img/portfolio/6-mobile.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -412,7 +413,14 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
-
+    <script src="js/ekko-lightbox.min.js"></script>
+    <!-- Lightbox delegate function -->
+    <script>
+    $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+    </script>
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
 
