@@ -348,6 +348,10 @@ header .header-content .header-content-inner p {
     color: #2955b3;
 }
 
+.text-white {
+    color: white;
+}
+
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
@@ -475,8 +479,18 @@ fieldset[disabled] .btn-primary.active {
     background-color: rgba(208,208,208,0.9);
 }
 
+.blk-bg{
+    background-color: rgba(0,0,0,0.8);
+}
+
 #as dt {
     font-size:1.5em;
+}
+
+ul.lg-list li{
+    font-size:1.5em;
+}
+
 }
 ::-moz-selection {
     text-shadow: none;
