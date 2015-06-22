@@ -503,6 +503,10 @@ ul.lg-list li{
 .spacer{
     padding:50px 0px;
 }
+
+select {
+    color:black;
+}
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
