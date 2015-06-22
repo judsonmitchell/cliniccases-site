@@ -32,6 +32,7 @@ a {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    text-decoration:underline;
 }
 
 a.dark {
@@ -87,6 +88,10 @@ aside {
     padding: 0;
 }
 
+dt.highlight {
+    color:rgb(240,95,64);
+    text-transform:uppercase;
+}
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -464,6 +469,10 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 15px 30px;
+}
+
+.gray-bg{
+    background-color: rgba(208,208,208,0.9);
 }
 
 ::-moz-selection {
