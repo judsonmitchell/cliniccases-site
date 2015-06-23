@@ -109,7 +109,7 @@
                         <input name="remember" id="remember" type="checkbox"> Remember my choice next time so I don't have to do this again.
                         </label>
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
+                    <button type="submit" id="submit-form" class="btn btn-default">Submit</button>
                 </form>
                 </div>
             </div>
@@ -188,7 +188,7 @@
         });
 
 		//Submit form
-		$('button').click(function(event){
+		$('#submit-form').click(function(event){
 			event.preventDefault();
 			var url = $('select').val();
 			if ($('input[name="remember"]').is(':checked')) {
