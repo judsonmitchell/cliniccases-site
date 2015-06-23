@@ -66,6 +66,10 @@ p {
     line-height: 1.5;
 }
 
+.bg-mask {
+    font-size:1.4em;
+    background-color:rgba(0,0,0,0.4)
+}
 .bg-primary {
     /*background-color: #f05f40;*/
     background-color: #2955b3
