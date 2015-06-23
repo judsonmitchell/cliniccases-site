@@ -126,7 +126,7 @@ dt.highlight {
     /*text-transform: uppercase;*/
     font-size: 13px;
     font-weight: 700;
-    color: #222;
+    color: white;
 }
 
 .navbar-default .nav > li>a:hover,
