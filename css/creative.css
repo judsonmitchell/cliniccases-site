@@ -103,7 +103,7 @@ dt.highlight {
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #fff;
+    background-color: rgba(0,0,0,0.7);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
